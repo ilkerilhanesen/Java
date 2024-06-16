@@ -1,0 +1,10 @@
+package YourPackageName;                                      // "public class YourClassName" Class'ımızın üzerinde çalıştığı Paket'imizi Belirten Alan
+import javax.swing.*;                                         // JOptionPane.showMessageDialog(null, "Hello World");  kodunun çalışması için dışarıdan içeriye kütüphane aktardık.
+
+public class YourClassName {
+    public static void main(String[] args) {                  // Main Methoud'unu zorunlu olarak Class'ımızın içerisinde çağırdık.
+        System.err.println("Hello World");                    // Konsol Ekranı'na Beyaz Rekte Hello World yazısını yazar.
+        System.out.println("Hello World");                    // Konsol Ekranı'na Kırmızı Rekte Hello World yazısını yazar.
+        JOptionPane.showMessageDialog(null, "Hello World");   // Message Box Ekranı'na Beyaz Rekte Hello World yazısını yazar ve OK Butonuna basılarak açılan pencere kapatılır.
+    }
+}
